@@ -1,0 +1,32 @@
+
+/*
+Logic
+A year is Leap year, if it satisfies two conditions:
+
+Year is divisible by 400 (for century years)
+Year is divisible by 4 and not divisible by 100 (for non century years)
+Program to check Leap year or not in C++
+*/
+
+/*
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int year;
+	
+	//read year
+	cout<<"Enter a year: ";
+	cin>>year;
+	
+	if((year%400==0)||(year%4==0 && year%100!=0))
+		cout<<year<<" is Leap year"<<endl;
+	else
+		cout<<year<<" is not Leap year"<<endl;
+	
+	return 0;
+}
+
+*/
+
